@@ -41,6 +41,7 @@ public class VoucherService {
         if(!entity.isPresent()){
             throw new VoucherException("entity does not exist");
             //testing the automated build
+            //testing the automated build
         }
         entity.get().setId(id);
         entity.get().setAmount(voucherModel.getAmount());
