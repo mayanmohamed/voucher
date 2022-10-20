@@ -4,6 +4,7 @@ import lombok.Data;
 
 @Data
 public class ActionModel {
+
     int code;
     String message;
 }
